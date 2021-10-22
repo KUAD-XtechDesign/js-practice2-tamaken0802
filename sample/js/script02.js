@@ -7,18 +7,8 @@ $(function(){
         $("#content").text(hako + "個はいっています。箱はいっぱいです。空にします。");
         $("#content").removeClass().addClass('full')
         hako = 0;
-        
-     　if(hako = 5){
-        $("#content").text(hako + "個はいっています。半分になりました。");
-        $("#content").removeClass().addClass('full')
-        hako = 0;
-    
 
-      if(hako > 9){
-        $("#content").text(hako + "個はいっています。箱はいっぱいです。空にします。");
-        $("#content").removeClass().addClass('full')
-        hako = 0;
-  
+      
 
       }else if(hako <= 0){
         hako = 0;
