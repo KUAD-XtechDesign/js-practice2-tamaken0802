@@ -91,5 +91,6 @@ h1{
   
  .empty{
   background-color: rgb(229, 151, 223);
+  transition: all 1s;
  }
  
