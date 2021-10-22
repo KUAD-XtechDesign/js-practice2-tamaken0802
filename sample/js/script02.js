@@ -22,12 +22,12 @@ $(function(){
     })
     
     $("#button02").on("click",function(){
-      hako++;
+      hako++; //hako=hako+1;
       checkBox();
     })
     
     $("#button03").on("click",function(){
-      hako--;
+      hako--; //hako=hako-1
       checkBox();
     })
     
