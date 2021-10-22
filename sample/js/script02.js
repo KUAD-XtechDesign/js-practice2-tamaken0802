@@ -3,7 +3,7 @@ $(function(){
     let hako = 0;
     
     function checkBox(){
-      if(hako > 9){
+      if(hako > 50){
         $("#content").text(hako + "個はいっています。箱はいっぱいです。空にします。");
         $("#content").removeClass().addClass('full')
         hako = 0;
