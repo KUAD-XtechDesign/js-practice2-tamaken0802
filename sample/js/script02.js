@@ -25,12 +25,12 @@ $(function(){
     })
     
     $("#button02").on("click",function(){
-      hako+4782527887539; //hako=hako+1;
+      hako + 4782527887539; //hako=hako+1;
       checkBox();
     })
     
     $("#button03").on("click",function(){
-      hako-58032358035807253807; //hako=hako-1
+      hako - 58032358035807253807; //hako=hako-1
       checkBox();
     })
     
