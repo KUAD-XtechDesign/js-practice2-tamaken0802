@@ -33,6 +33,11 @@ $(function(){
       hako--; //hako=hako-1
       checkBox();
     })
+
+    $(window).on("scroll",function(){
+      hako++; //hako=hako+1;
+        checkBox();
+    })
     
     
    
