@@ -3,10 +3,11 @@ $(function(){
     let hako = 0;
     
     function checkBox(){
-      if(hako > 5){
+      if(hako > 10){
         $("#content").text(hako + "個はいっています。箱はいっぱいです。空にします。");
         $("#content").removeClass().addClass('full')
         hako = 0;
+
       }else if(hako <= 0){
         hako = 0;
         $("#content").text(hako + "個。入ってません。");
